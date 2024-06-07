@@ -1,0 +1,16 @@
+{
+    "name": "Python Dev Container",
+    //"dockerFile": "Dockerfile",
+    "image": "dev:latest" ,
+    //"context": "..",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "formulahendry.code-runner",
+                "ms-vscode-remote.remote-containers"
+            ]
+        }
+    },
+    "runArgs": []
+}
