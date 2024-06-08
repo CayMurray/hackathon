@@ -6,7 +6,7 @@ from scipy.stats import mannwhitneyu
 from statsmodels.stats.multitest import multipletests
 
 
-data = np.load('./connectomes_cobre_scale_444.npy')
+data = np.load("data/connectomes_cobre_scale_444.npy")
 
 
 labels = load_labels("./subjects.txt")

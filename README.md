@@ -30,3 +30,6 @@ We predicted significant differences between the population with schizophrenia a
 
 ## Results
 See result figures for each section of data. There were significant differences found between the schizophrenia group and control group for all analyses performed, indicating that schizophrenic patients display abnormalities in functional connectivity through different regions of the brain.
+
+## Running the tests yourself
+To run the tests yourself, download `connectomes_cobre_scale_444.npy` as well as `subjects.txt` from the website link above containing all the data. Ensure that the data is in the directory ./workspace/data, creating the directory if necessary. All tests are found in the worspace directory.
